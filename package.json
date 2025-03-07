@@ -6,11 +6,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preinstall": "npx only-allow pnpm",
     "build": "tsc && vite build",
     "lint": "eslint . --ext js,ts,tsx",
     "format": "prettier --write **/*.{js,ts,tsx} && eslint . --ext js,ts,tsx --fix",
-    "preview": "vite preview",
+    "preaview": "vite preview",
     "postinstall": "bash postinstall.sh",
     "prepare": "husky install"
   },
